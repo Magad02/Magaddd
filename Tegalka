@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 @loader.tds
 class AutoInfoMod(loader.Module):
     """1"""
-    strings = {"name": "AutoInfo"}
+    strings = {"name": "AutoInfo1"}
 
     async def client_ready(self, client, db):
         self._db = db
